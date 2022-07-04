@@ -11,7 +11,6 @@ import geopandas as gpd
 gpf=gpd.read_file(r'D:\muyuchenzi\code\current\JustFun\geopandas数据包检验\下载_有路名.shp',encoding='utf-8')
 
 # gpf.crs={'proj': 'latlong', 'ellps': 'WGS84', 'datum': 'WGS84', 'no_defs': True}
-#
 # result = gpf.to_crs({'proj': 'utm', 'zone': 31, 'ellps': 'WGS84', 'datum': 'WGS84',
  'units': 'm', 'no_defs': True})
 #
